@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home - My first website.</title>
+    <link rel="shorcut icon" sizes="16x16 32x32 64x64" href="https://nomadcoders.co/m.png" />
+</head>
+
+<body>
+    <form>
+        <header>
+            <h1>Create An Account</h1>
+        </header>
+        <main>
+            <div>
+                <label for="first-name">Fist name</label>
+                <input id="first-name" required placeholder="Name" type="text" />
+            </div>
+
+            <div>
+                <label for="Last-name">Last name</label>
+                <input id="Last-name" required placeholder="Last Name" type="text" />
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input id="Email" required placeholder="Email" type="email" />
+            </div>
+
+            <div>
+                <label for="Username">Username</label>
+                <input id="Username" required placeholder="Username" type="text" />
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input id="password" required placeholder="Password" minlength="10" type="password" />
+            </div>
+
+            <div>
+                <lable for="birth">Birth</lable>
+                <input id="birth" required placeholder="Birth" type="date" />
+            </div>
+
+            <div>
+                <lable for="happy_question">How happy are you? </lable>
+                <!-- min="0" max="10" step="1" -->
+                <input id="happy_question" required placeholder="How happy are you" type="range" list="tickmarks" />
+
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                </datalist>
+            </div>
+
+            <div>
+                <label for="color_question">What is your fav. color?</label>
+                <input id="color_question" type="color" />
+            </div>
+            <input type="submit" value="Create Account" />
+
+
+
+
+
+        </main>
+
+        <footer>
+            <!-- &copy; 2021-01-08_LJ -->
+        </footer>
+
+    </form>
+</body>
+
+</html>
