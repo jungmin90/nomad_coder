@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+    <head>
+
+        <title>The lee test page</title>
+        <style>
+            @keyframes coinFlip {
+                from {
+                    transform: rotateY(0deg);
+                }
+
+                to {
+                    transform: rotateY(360deg) translate(100px);
+                }
+
+            }
+
+            img {
+                border: 5px solid black;
+                border-radius: 50%;
+                animation: coinFlip 2s ease-in-out infinite;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+        <img src="logo.png" />
+    </body>
+
+</html>
